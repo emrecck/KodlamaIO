@@ -1,14 +1,14 @@
 ﻿using System;
 
-namespace Methods
+namespace Generics
 {
     class Program
     {
         static void Main(string[] args)
         {
-            CartManager cartManager = new CartManager();
-            cartManager.Add();
+            MyGenericClass<int> myGenericClass = new MyGenericClass<int>();
+
+
         }
     }
-
 }

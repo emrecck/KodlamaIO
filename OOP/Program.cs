@@ -1,14 +1,12 @@
 ﻿using System;
 
-namespace Methods
+namespace OOP
 {
     class Program
     {
         static void Main(string[] args)
         {
-            CartManager cartManager = new CartManager();
-            cartManager.Add();
+            Console.WriteLine("Hello World!");
         }
     }
-
 }

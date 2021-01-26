@@ -6,8 +6,10 @@ namespace Methods
 {
     public class Product
     {
-        string name = "Elma";
-        double cost = 15;
-        string description = "Amasya elması";
+        public int Id { get; set; }
+        public string Name { get; set; }
+        public double Cost { get; set; }
+        public string Description { get; set; }
+
     }
 }

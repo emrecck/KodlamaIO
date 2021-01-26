@@ -6,6 +6,10 @@ namespace Methods
 {
     class CartManager
     {
-
+        //naming convention
+        public void Add()
+        {
+            Console.WriteLine("Added to Cart");
+        }
     }
 }
