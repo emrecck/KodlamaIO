@@ -6,5 +6,6 @@ namespace GameStore.Services
 {
     interface ICampaign
     {
+        double Discount();
     }
 }
