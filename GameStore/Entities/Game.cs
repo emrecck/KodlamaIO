@@ -1,11 +1,10 @@
-﻿using GameStore.Services;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Text;
 
 namespace GameStore.Entities
 {
-    class Game:IGame
+    class Game
     {
         public int Id { get; set; }
         public string GameCode { get; set; }
